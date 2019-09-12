@@ -1,0 +1,6 @@
+﻿  Sort.cpp
+D:\GitLab\VSpro\Sort\Sort\SortTestHelper.h(19,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\GitLab\VSpro\Sort\Sort\SortTestHelper.h(37,13): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\GitLab\VSpro\Sort\Sort\quickSort.h(11,12): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\GitLab\VSpro\Sort\Sort\quickSort.h(48,12): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Sort.vcxproj -> D:\GitLab\VSpro\Sort\Debug\Sort.exe
