@@ -96,6 +96,10 @@ StyleCopReport.xml
 *.opendb
 *.vcxproj
 *.filters
+*.idb
+*.tlog
+*.obj
+*.exe
 # Chutzpah Test files
 _Chutzpah*
 
