@@ -23,24 +23,24 @@ public:
         {
             return 0;
         }
-        std::queue<TreeNode*> NodeStack;
-        NodeStack.push(root);
+        std::queue<TreeNode*> NodeQ;
+        NodeQ.push(root);
         int level = 0;
-        while (!NodeStack.empty())
+        while (!NodeQ.empty())
         {
             level++;
-            int len = NodeStack.size();
+            int len = NodeQ.size();
             while(len--)
             {
-                TreeNode* node = NodeStack.front();
-                NodeStack.pop();
+                TreeNode* node = NodeQ.front();
+                NodeQ.pop();
                 if (node->left != NULL)
                 {
-                    NodeStack.push(node->left);
+                    NodeQ.push(node->left);
                 }
                 if (node->right != NULL)
                 {
-                    NodeStack.push(node->right);
+                    NodeQ.push(node->right);
                 }
             }
         }
