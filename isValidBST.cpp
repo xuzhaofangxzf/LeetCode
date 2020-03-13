@@ -57,7 +57,7 @@ public:
                 {
                     return false;
                 }
-                PreNode = root;
+                PreNode = root; //这种情况下，才能保证Pre节点有成为根节点的时候，这时候，遍历右子树一直扎到左边的底部，要保证右子树最左边的底部的值大于根节点的值
                 root = PreNode->right;
             }
             
